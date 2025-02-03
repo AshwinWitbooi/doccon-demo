@@ -14,7 +14,7 @@ import javax.persistence.OneToOne;
 public class Person {
 
     @Id
-    @GeneratedValue(strategy=GenerationType.AUTO)
+    @GeneratedValue(strategy=GenerationType.IDENTITY)
     private Long id;
     @Column(name="FIRST_NAME")
     private String firstName;
